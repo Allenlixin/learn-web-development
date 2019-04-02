@@ -1,0 +1,125 @@
+
+@font-face{
+    font-family: "my-font";
+    src:url("AlexBrush-Regular.ttf");
+}
+
+@font-face{
+    font-family: "header-font";
+    src:url("veteran_typewriter.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-family: "header-font";
+    margin: 0 auto;
+    min-width:1000px;
+    max-width :1400px;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h1,h2{
+    text-align: center;
+    letter-spacing:2px;
+}
+
+section{
+    font-family: "my-font";
+    float: left;
+    width:30%;
+}
+
+aside{
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 30%;
+}
+
+footer{
+    clear: both;
+}
+
+header,section,aside,nav,footer{
+    padding:20px;
+}
+
+header,footer{
+    border-top:5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+/* h2>:first-child {
+    text-indent: 20px;
+} */
+
+section h2+p{
+    text-indent: 20px;
+}
+
+a{
+    outline:  none;
+}
+
+a :link{
+color: rgb(32, 10, 237);
+}
+
+a :visited{
+    color: rgb(159, 6, 248);
+}
+
+a:focus{
+    color: rgb(8, 121, 27);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(237, 10, 14);
+
+}
+a:active{
+    background: #265301;
+    color: #CDFEAA;
+}
+
+nav ul{
+list-style-type: none;
+}
+
+nav a {
+    width: 60%;
+    outling :none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 5rem;
+    border: 1px solid rgb(159, 6, 248);
+    margin:10px;
+    float:right;
+}
+
+a[href*=“http”] {
+    background: url(‘https://mdn.mozillademos.org/files/12982/external-link-52.png’) no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+
+
+aside {
+line-height: 3rem;
+}
