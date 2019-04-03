@@ -1,45 +1,43 @@
+@font-face {
+  font-family: "my-font";
+  src: url("AlexBrush-Regular.ttf");
+}
 
-@font-face{
-    font-family: "my-font";
-    src:url("AlexBrush-Regular.ttf");
-    /* src:url("KaushanScript-Regular.otf"); */
+@font-face {
+  font-family: "header-font";
+  src: url("KaushanScript-Regular.otf");
 }
-@font-face{
-    font-family: "header-font";
-    src:url("KaushanScript-Regular.otf");
-}
+
 html {
-    font-size: 10px;
-    margin:0;
-    font-family: "my-font";
+  font-size: 10px;
+  margin: 0;
+  font-family: "my-font";
 }
 
 body {
-    width:80%;
-    max-width: 800px;
-    margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-h1{
-    font-size: 3.2rem;
-    font-family: "header-font";
-}
-h2{
-    font-size: 2.4rem;
-    font-family: "header-font";
-
-}
-p:first-child{
-    font-family: "header-font";
-    color:blue;
-    font-size:2rem;
+h1 {
+  font-size: 3.2rem;
+  font-family: "header-font";
 }
 
+h2 {
+  font-size: 2.4rem;
+  font-family: "header-font";
+}
+
+p:first-child {
+  font-family: "header-font";
+  color: blue;
+  font-size: 2rem;
+}
 
 p {
-   
-
-    font-size: 1.4rem;
-    line-height: 1.6;
-    word-spacing: 0.6rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
 }
