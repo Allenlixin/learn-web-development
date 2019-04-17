@@ -12,7 +12,7 @@ window.onload = function() {
     console.log("Database failed to open");
   };
   request.onsuccess = function() {
-    console.log("Database opened successfully");
+    console.log("Database opened succesfully");
     db = request.result;
     displayData();
   };
@@ -61,7 +61,7 @@ window.onload = function() {
       list.removeChild(list.firstChild);
     }
     let objectStore = db.transaction("notes").objectStore("notes");
-    objectStore.openCurson().onsuccess = function(e) {
+    objectStore.openCursor().onsuccess = function(e) {
       let cursor = e.target.result;
       if (cursor) {
         let listItem = document.createElement("li");
